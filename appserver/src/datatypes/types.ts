@@ -1,0 +1,2 @@
+export type queryOption = { get?: string, where?: object, pageSize?: number, orderBy?: string, order?: string } | null
+export type resourceOption = { join: Array<{ table: string, foreign_key: string, local_key: string, join_keys?: string }>, keys?: string } | null 

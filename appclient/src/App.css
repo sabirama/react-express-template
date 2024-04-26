@@ -1,0 +1,9 @@
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.main-container {
+    min-height: 500px;
+    padding: 0 1rem 100px;
+}
